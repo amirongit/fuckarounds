@@ -26,8 +26,8 @@ app.MapGet("/staffs", (byte? PageSize, byte? PageNumber) =>
     {
         var Presentation = new Dictionary<string, string>
         {
-            {"first_name", s.FirstName},
-            {"last_name", s.LastName},
+            {"FirstName", s.FirstName},
+            {"LastName", s.LastName},
         };
         output.Add(Presentation);
     }
