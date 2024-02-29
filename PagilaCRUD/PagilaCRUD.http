@@ -1,0 +1,6 @@
+@PagilaCRUD_HostAddress = http://localhost:5022
+
+GET {{PagilaCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
